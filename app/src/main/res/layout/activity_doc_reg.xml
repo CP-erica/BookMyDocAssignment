@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DocReg"
+    android:orientation="vertical"
+    android:background="@drawable/bglogin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Portal"
+        android:textColor="@color/textcolor"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/textcolor"
+        android:drawableLeft="@drawable/ic_text_format_black_24dp"/>
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email "
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/textcolor"
+        android:drawableLeft="@drawable/ic_email_black_24dp"/>
+
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter any Password "
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/textcolor"
+        app:passwordToggleEnabled="true"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"/>
+
+
+    <EditText
+        android:id="@+id/edtphn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Phone Number "
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/textcolor"
+        android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/edtadd"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Your Address "
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/textcolor"
+
+        />
+
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Specialities "
+            app:hintAnimationEnabled="true"
+            android:textColorHint="@color/textcolor"
+           />
+
+        <Spinner
+            android:id="@+id/spSpec"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        android:background="@color/mainbg"
+        android:textSize="20dp"
+        android:id="@+id/btn_register"
+        android:layout_marginLeft="5dp"
+        android:drawableRight="@drawable/ic_forward_black_24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="** All Fields Are Necessary"
+        android:textColor="@color/textcolor"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        android:gravity="left"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+
+</LinearLayout>
